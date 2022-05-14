@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: gainsboro;
+    padding: 12rem;
+    margin: 2rem;
+    font-size: arial;
+    max-height: 1rem;
+    max-width: 3rem;
+}
+
+main {
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    max-height: 20rem;
+    border-radius: 30px;
+    justify-content: space-between;
+    max-width: 20rem
+}
+
+button {
+    background-color: orangered;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+button:hover {
+    background: yellow;
+}
+
+/* Media queries */
+@media(max-width: 1024px) {
+    body {
+        width: 90%;
+    }
+}
+
+@media(max-width: 650px) {
+    body {
+        width: 90%;
+        align-items: center;
+    }
+}
